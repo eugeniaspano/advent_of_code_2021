@@ -1,11 +1,3 @@
-import collections
-
-
-def removekey(d, key):
-    r = dict(d)
-    del r[key]
-    return r
-
 
 def explore(current_cave, small_caves_seen, path, seen_twice):
     global n_paths
